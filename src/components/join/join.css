@@ -1,0 +1,52 @@
+.joinPage{
+    background-color: #202020;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.joinContainer{
+    /* border: 1px solid white; */
+    /* height: 50%; */
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.joinContainer > img{
+    width: 10vmax;
+}
+.joinContainer > h1{
+    color: white;
+    font-size: 2vmax;
+    width: 25vmax;
+    border-bottom: .2vmax solid white;
+    text-align: center;
+    padding: 1vmax;
+}
+#joinInput{
+    width: 25vmax;
+    padding: 1.5vmax;
+    border: none;
+    outline: none;
+    margin-top: 1vmax;
+    font-size: 1.2vmax;
+    border-radius: 1vmax;
+}
+.joinBtn{
+    width: 25vmax;
+    border: none;
+    outline: none;
+    font-size: 1.5vmax;
+    background-color: crimson;
+    padding: 1.5vmax;
+    color: white;
+    transition: all .5s;
+    margin: 1vmax;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.joinBtn:hover{
+    background-color: rgba(220, 20, 60, 0.714);
+}
