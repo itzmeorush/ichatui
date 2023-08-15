@@ -7,7 +7,7 @@ import closeIcon from "../../images/closeIcon.png";
 import Message from "../message/Message";
 import ReactScrollToBottom from 'react-scroll-to-bottom'
 
-const ENDPOINT = "https://ichat-nx4y8nwbm-deepanshukushwaha166-gmailcom.vercel.app/";
+const ENDPOINT = "https://ichat-six.vercel.app/";
 let socket;
 
 const Chat = () => {
